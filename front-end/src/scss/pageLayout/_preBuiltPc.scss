@@ -1,0 +1,28 @@
+.prebuiltpc {
+  background: url("../../img/preBuiltPc.jpg");
+  background-size: cover;
+
+  &__inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 2rem;
+  }
+  &__pc {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    gap: 10px;
+
+    &--pc {
+      text-align: center;
+      // height: 10rem;
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &--image {
+    height: 7rem;
+  }
+}

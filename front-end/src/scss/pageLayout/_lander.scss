@@ -1,0 +1,52 @@
+.lander {
+  height: 25rem;
+  background: url("../../img/lander.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  &__discription {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); //also black is good
+    width: 60%;
+    padding: 2rem;
+  }
+}
+
+.subLander {
+  height: 8rem;
+  background: url("../../img/textBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+
+  &__title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 2rem;
+    animation: pulse 5s infinite;
+
+    @keyframes pulse {
+      0% {
+        background-color: rgba(26, 17, 77, 0.3);
+      }
+
+      50% {
+        background-color: rgba(42, 90, 104, 0.3);
+      }
+
+      100% {
+        background-color: rgba(26, 17, 77, 0.3);
+      }
+    }
+  }
+}

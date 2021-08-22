@@ -1,0 +1,18 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(max-content, 1fr));
+  background-color: #fff;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  color: #2b2b2b;
+  height: 4rem;
+  z-index: 1000;
+
+  &__link {
+    margin-inline: 2rem 0;
+  }
+}

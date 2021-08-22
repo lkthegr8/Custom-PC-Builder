@@ -1,0 +1,242 @@
+.textTransformUpper {
+  text-transform: uppercase;
+}
+
+.textTransformCapitalize {
+  text-transform: capitalize;
+}
+
+.textAlignVertical {
+  writing-mode: vertical-lr;
+}
+
+.textOrientationverticalRight {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textVerticalAlignCenter {
+  vertical-align: middle;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.gridContentCenter {
+  justify-self: center;
+  align-self: center;
+}
+
+.gridContentRightCenter {
+  justify-self: right;
+  align-self: center;
+}
+
+.gridContentLeftCenter {
+  justify-self: left;
+  align-self: center;
+}
+
+.gridContentRight {
+  justify-self: left;
+}
+
+.colorGold {
+  color: #c5a47e;
+}
+
+.colorDarkGrey {
+  color: #2b2b2b;
+}
+
+.colorGrey {
+  color: #606060;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.bgColorDarkGrey {
+  background-color: #2b2b2b;
+}
+
+.bgColorGold {
+  background-color: #c5a47e;
+}
+
+.bgColorWhite {
+  background-color: #fff;
+}
+
+.bgColorGrey {
+  background-color: #606060;
+}
+
+.letterSpacingMedium {
+  letter-spacing: 0.5rem;
+}
+
+.lineHeightNone {
+  line-height: 0;
+}
+
+.lineHeight75 {
+  line-height: 0.75;
+}
+
+.lineHeight1 {
+  line-height: 1;
+}
+
+.lineHeight125 {
+  line-height: 1.25;
+}
+
+.lineHeight150 {
+  line-height: 1.5;
+}
+
+.lineHeight175 {
+  line-height: 1.75;
+}
+
+.letterSpacingNone {
+  letter-spacing: 0;
+}
+
+.letterSpacing1 {
+  letter-spacing: 0.1rem;
+}
+
+.letterSpacing3 {
+  letter-spacing: 0.3rem;
+}
+
+.letterSpacing5 {
+  letter-spacing: 0.5rem;
+}
+
+.letterSpacing10 {
+  letter-spacing: 1rem;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.padding-y-2 {
+  padding: 2rem 0;
+}
+
+.padding-3 {
+  padding: 3rem;
+}
+
+.padding-4 {
+  padding: 4rem;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.padding-bottom-huge {
+  padding-bottom: 8rem;
+}
+
+.padding-inline-2 {
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+}
+.padding-inline-1 {
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+}
+
+.border-0 {
+  border: none;
+}
+
+.divider {
+  border: 1px solid #3d3d3d;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.clear {
+  opacity: 0;
+}
+
+.overflow-hidden-x {
+  overflow-x: hidden;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.goldBGImage {
+  padding: 0 0 5rem;
+  // background-image: url("./../../img/homeBG.jpg");
+}
+
+.darkish_green {
+  background-color: #081d1a;
+}
+.darkish_blue {
+  background-color: #1a5051;
+}
+.darkish_red {
+  background-color: #5b1d01;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.disable__overlay {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  border: none;
+  border-radius: 5rem;
+  background: white;
+  outline: none;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
